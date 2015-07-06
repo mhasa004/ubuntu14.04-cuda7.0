@@ -25,3 +25,4 @@ RUN curl -sk https://raw.githubusercontent.com/torch/ezinstall/master/install-de
 RUN git clone https://github.com/torch/distro.git ~/torch --recursive
 RUN cd ~/torch
 RUN ./install.sh
+RUN source ~/.bashrc
