@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Traun Leyden <traun.leyden@gmail.com>
+MAINTAINER Mahmudul Hasan <mhasa004@ucr.edu@gmail.com>
 
 # A docker container with the Nvidia kernel module, CUDA drivers, and torch7 installed
 
