@@ -24,5 +24,6 @@ RUN cd /opt/nvidia_installers && \
 ENV LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-7.0/lib64
 ENV PATH=$PATH:/usr/local/cuda-7.0/bin
 
+
 # Install torch7
 # Will be added later
