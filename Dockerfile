@@ -25,7 +25,7 @@ ENV LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-7.0/lib64
 ENV PATH=$PATH:/usr/local/cuda-7.0/bin
 
 # Install torch7
-RUN apt-get install curl
+RUN apt-get -y install curl
 RUN curl -sk https://raw.githubusercontent.com/torch/ezinstall/master/install-deps | bash
 RUN git clone https://github.com/torch/distro.git ~/torch --recursive
 RUN cd ~/torch
