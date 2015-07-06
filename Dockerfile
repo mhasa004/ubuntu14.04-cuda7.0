@@ -1,3 +1,8 @@
+FROM ubuntu:14.04
+MAINTAINER Traun Leyden <traun.leyden@gmail.com>
+
+# A docker container with the Nvidia kernel module, CUDA drivers, and torch7 installed
+
 ENV CUDA_RUN http://developer.download.nvidia.com/compute/cuda/7_0/Prod/local_installers/cuda_7.0.28_linux.run
 
 RUN apt-get update && apt-get install -q -y \
